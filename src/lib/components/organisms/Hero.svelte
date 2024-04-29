@@ -6,10 +6,10 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
+	<h1 class="hello">Hi! I am Utsav!!!</h1>
 	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+		<span class="left">I'm a seasoned software engineer,</span>
+		<span class="right">hustling through a computer science program at NC State</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
@@ -48,7 +48,7 @@
 		.intro {
 			font-weight: 500;
 			font-size: 1.4rem;
-			width: min(100%, 440px);
+			width: min(100%, 500px);
 			display: flex;
 			flex-direction: column;
 

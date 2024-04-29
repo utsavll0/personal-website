@@ -7,12 +7,13 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			Coder, gamer and utterly
+			<SparklingHighlight color="secondary">curious!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			With four years under my belt as a software engineer, I've developed various products spanning
+			web and mobile applications. Looking ahead, I aim to leverage my acquired skills to create
+			something impactful and purposeful in my next endeavor.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
@@ -21,8 +22,8 @@
 	</div>
 	<div class="image">
 		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
+			src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Brown"
+			alt="Image Avatar"
 		/>
 	</div>
 </section>

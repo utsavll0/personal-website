@@ -1,52 +1,44 @@
 <script>
-	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
-	import RssIcon from '$lib/icons/rss.svelte';
-	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
+	import Medium from '$lib/icons/socials/medium.svelte';
+
+	const recipient = 'utsavll0@gmail.com';
+	const subject = 'Hello Utsav';
+	const body = 'Hi Utsav,';
+	const mailToUrl = `mailto:${recipient}?subject=${encodeURIComponent(
+		subject
+	)}&body=${encodeURIComponent(body)}`;
 </script>
 
 <div class="socials">
 	<a
-		href="#"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Say Hi on Telegram"
-	>
-		<TelegramIcon />
-	</a>
-	<a
-		href="#"
-		target="_blank"
-		rel="me noreferrer"
-		title="Say Hi on Mastodon"
-	>
-		<MastodonIcon />
-	</a>
-	<a
-		href="#"
-		target="_blank"
+		href="https://github.com/utsavll0"
+		target="noopener"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
 	>
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
-		target="_blank"
+		href="https://linkedin.com/in/utsavkumar-lal"
+		target="noopener"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
 	>
 		<LinkedInIcon />
 	</a>
+	<a href={mailToUrl} target="noopener" rel="noopener noreferrer" title="Send an email">
+		<EmailIcon />
+	</a>
 	<a
-		href="#"
-		target="_blank"
+		href="https://medium.com/@utsavkumarlal"
+		target="noopener"
 		rel="noopener noreferrer"
 		title="Send an email"
 	>
-		<EmailIcon />
+		<Medium />
 	</a>
 </div>
 

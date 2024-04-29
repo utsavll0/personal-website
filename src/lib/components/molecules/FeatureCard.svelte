@@ -3,11 +3,13 @@
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import type { TagType } from '$lib/utils/types';
 	import Image from '../atoms/Image.svelte';
+	import GitHubIcon from '$lib/icons/socials/github.svelte';
 
 	export let name: string;
 	export let description: string;
 	export let image: string;
 	export let tags: TagType[] | undefined;
+	export let url: string | undefined;
 </script>
 
 <Card additionalClass="feature-card">
@@ -15,8 +17,15 @@
 		<Image src={image} alt="Picture describing the {name} feature" />
 	</div>
 	<div class="content" slot="content">
-		<div class="title">
-			<span>{name}</span>
+		<div class="heading">
+			<div class="title">
+				<span>{name}</span>
+			</div>
+			<div class="icons">
+				<a href={url} target="noopener" rel="noopener noreferrer" title="Github project">
+					<GitHubIcon />
+				</a>
+			</div>
 		</div>
 		<p>{description}</p>
 	</div>
@@ -32,6 +41,7 @@
 </Card>
 
 <style lang="scss">
+	@import '../../scss/breakpoints.scss';
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -44,6 +54,7 @@
 		align-items: center;
 		justify-content: space-between;
 		width: 100%;
+		flex: 1;
 
 		font-size: 1.2rem;
 		font-family: var(--font--title);
@@ -63,5 +74,32 @@
 
 	:global(.feature-card .image img) {
 		object-fit: cover;
+	}
+
+	.heading {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.icons {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		margin-left: 10px;
+
+		a {
+			transition: all 0.2s ease-in-out;
+			width: 24px;
+			color: var(--color--text);
+			fill: var(--color--text);
+			text-decoration: none;
+
+			&:hover {
+				color: var(--color--primary);
+				fill: var(--color--primary);
+				filter: drop-shadow(0px 0px 3px var(--color--primary));
+			}
+		}
 	}
 </style>

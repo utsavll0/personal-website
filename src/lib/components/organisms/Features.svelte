@@ -6,11 +6,7 @@
 	export let features: Feature[];
 </script>
 
-<ContentSection
-	id="features"
-	title="Features"
-	description="Here are some of the features of this template"
->
+<ContentSection id="features" title="Projects" description="Here are some of my top projects">
 	<div class="features-container">
 		<div class="three-group-grid">
 			{#each features as feature}
@@ -19,6 +15,7 @@
 					description={feature.description}
 					image={feature.image}
 					tags={feature.tags}
+					url={feature.url}
 				/>
 			{/each}
 		</div>
