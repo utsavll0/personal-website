@@ -1,26 +1,41 @@
 <script>
-	import FeaturesIcon from '$lib/icons/features.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import Download from '$lib/icons/download.svelte';
+	import Mail from '$lib/icons/mail.svelte';
+
+	const recipient = 'utsavll0@gmail.com';
+	const subject = 'Hello Utsav';
+	const body = 'Hi Utsav,';
+	const mailToUrl = `mailto:${recipient}?subject=${encodeURIComponent(
+		subject
+	)}&body=${encodeURIComponent(body)}`;
 </script>
 
 <section id="hero">
 	<h1 class="hello">Hi! I am Utsav!!!</h1>
 	<p class="intro">
 		<span class="left">I'm a seasoned software engineer,</span>
-		<span class="right">hustling through a computer science program at NC State</span>
+		<span class="right">working towards a computer science degree</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
+			<Button href="https://github.com/utsavll0/personal-website">
 				<GitHubIcon slot="icon" />
 				Source Code
 			</Button>
 		</Sparkles>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
+		<Button
+			color="secondary"
+			href="https://drive.google.com/uc?export=download&id=1YGC0tc_WThLM8ufXjoLzNNkHjE-6VpdZ"
+		>
+			<Download slot="icon" />
+			Resume
+		</Button>
+		<Button color="primary" href={mailToUrl}>
+			<Mail slot="icon" />
+			Contact Me
 		</Button>
 	</div>
 </section>
@@ -48,7 +63,7 @@
 		.intro {
 			font-weight: 500;
 			font-size: 1.4rem;
-			width: min(100%, 500px);
+			width: min(100%, 600px);
 			display: flex;
 			flex-direction: column;
 

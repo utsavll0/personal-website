@@ -37,3 +37,12 @@ export type BlogPost = {
 	relatedPosts: BlogPost[];
 	coverImage: string | undefined;
 };
+
+export type WorkEx = {
+	company: string;
+	designation: string;
+	startDate: Date;
+	endDate: Date;
+	description: string;
+	tags: TagType[];
+};

@@ -11,10 +11,10 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
+			Built by Me, inspired by <a
+				href="https://github.com/matfantinel/sveltekit-static-blog-template"
 				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
+				rel="noopener noreferrer">Mat Fantinel</a
 			>.
 		</div>
 		<div class="credits">
@@ -25,7 +25,6 @@
 		</div>
 		<div class="socials">
 			<Socials />
-			<RssLink />
 			<ThemeToggle />
 		</div>
 	</div>

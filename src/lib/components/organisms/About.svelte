@@ -7,13 +7,15 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Coder, gamer and utterly
-			<SparklingHighlight color="secondary">curious!</SparklingHighlight>
+			Passionate, disciplined and
+			<SparklingHighlight color="secondary">Curious!</SparklingHighlight>
 		</h2>
 		<p>
-			With four years under my belt as a software engineer, I've developed various products spanning
-			web and mobile applications. Looking ahead, I aim to leverage my acquired skills to create
-			something impactful and purposeful in my next endeavor.
+			After gaining four years of experience as a software engineer, I've built a range of products
+			including web and mobile applications. Moving forward, I plan to use my skills to develop
+			something meaningful and influential in my next project. Outside of coding, I enjoy watching
+			tennis or cricket, and I often spend my free time playing video games. I have a passion for
+			understanding how things work in the world and sharing fascinating facts with others.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
