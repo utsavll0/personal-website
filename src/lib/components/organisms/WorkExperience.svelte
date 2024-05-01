@@ -12,7 +12,7 @@
 	});
 </script>
 
-<ContentSection id="experience" title="Experience" description="My work experience">
+<ContentSection id="experience" title="Work Experience" description="">
 	<ul class="workex">
 		{#each workExperiences as workEx}
 			<li class="list-item">

@@ -23,10 +23,7 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image
-			src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Brown"
-			alt="Image Avatar"
-		/>
+		<Image src="images/utsav_at_beach.jpg" alt="Image Avatar" />
 	</div>
 </section>
 
@@ -83,8 +80,9 @@
 		}
 
 		.image {
-			width: 220px;
-			height: 220px;
+			width: 115%;
+			height: 115%;
+			background-color: var(--color--page-background);
 		}
 	}
 </style>

@@ -36,7 +36,11 @@ export default [
 			'Extended an already existing telegram bot to add speech to text features in the app. Added features to export and import data to a csv file.',
 		image: 'images/banner.jpg',
 		url: 'https://github.com/utsavll0/spendwise',
-		tags: [{ label: 'Powered by Image Transmutation' }]
+		tags: [
+			{ label: 'Python' },
+			{ label: 'Telegram Bot', color: 'secondary' },
+			{ label: 'Speech to Text' }
+		]
 	},
 	{
 		name: 'Reinforcement Learning Car',
