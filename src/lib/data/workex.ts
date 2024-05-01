@@ -2,6 +2,22 @@ import type { WorkEx } from '$lib/utils/types';
 
 export default [
 	{
+		company: 'NC State Nuclear Engineering Department',
+		designation: 'Graduate Student Researcher',
+		description:
+			'Working as a software developer under Dr Mihai, I helped him develop the admin and user profile pages for the OpenPRA app. The app helps design probabilistic designs like Bayesian Networks, Fault Tree Diagrams and many more.',
+		startDate: new Date('2023-12-07'),
+		endDate: new Date('2024-05-31'),
+		tags: [
+			{ label: 'React', color: 'primary' },
+			{ label: 'Elastic UI', color: 'secondary' },
+			{ label: 'NestJS', color: 'primary' },
+			{ label: 'Node', color: 'secondary' },
+			{ label: 'MongoDB', color: 'primary' }
+		],
+		current: true
+	},
+	{
 		company: 'Makkajai, Remote, India',
 		designation: 'Software Development Engineer - 1',
 		description:
@@ -17,7 +33,8 @@ export default [
 			{ label: 'React', color: 'secondary' },
 			{ label: 'Flutter', color: 'primary' },
 			{ label: 'Flutter', color: 'secondary' }
-		]
+		],
+		current: false
 	},
 	{
 		company: 'Brainscale, Pune (Remote), India',
@@ -33,6 +50,26 @@ export default [
 			{ label: 'Azure', color: 'secondary' },
 			{ label: 'Mirosoft Bot Framework', color: 'primary' },
 			{ label: 'Angular', color: 'secondary' }
-		]
+		],
+		current: false
+	},
+	{
+		company: 'Tech Mahindra Ltd, Pune, India',
+		designation: 'Associate Software Engineer',
+		description:
+			'My first company where I learnt the ropes of software engineer. I completed trainings on Java, HTML, CSS, JS, SQL among other things. I also learned the ways of Agile development and Scrum meetings.',
+		startDate: new Date('2019-07-31'),
+		endDate: new Date('2019-11-07'),
+		tags: [
+			{ label: 'Java', color: 'primary' },
+			{ label: 'Oracle SQL', color: 'secondary' },
+			{ label: 'Spring', color: 'primary' },
+			{ label: 'HTML', color: 'secondary' },
+			{ label: 'CSS', color: 'primary' },
+			{ label: 'Javascript', color: 'secondary' },
+			{ label: 'Agile', color: 'primary' },
+			{ label: 'Scrum', color: 'secondary' }
+		],
+		current: false
 	}
 ] as WorkEx[];

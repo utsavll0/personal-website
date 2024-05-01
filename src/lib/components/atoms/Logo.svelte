@@ -13,9 +13,7 @@
 	>
 		<text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)"
 			><tspan x="275.57227" y="292.17088" id="tspan1319"
-				><tspan style="font-size:106.667px;font-family:YoungSerif;" id="tspan1317"
-					>Utsavkumar Lal</tspan
-				></tspan
+				><tspan style="" id="tspan1317">Utsavkumar Lal</tspan></tspan
 			></text
 		>
 	</svg>
@@ -44,6 +42,8 @@
 			#text {
 				transition: all 0.2s ease-in-out;
 				fill: var(--color--text);
+				font-family: 'Dancing Script Variable', cursive;
+				font-size: 106.667px;
 			}
 		}
 
@@ -76,6 +76,8 @@
 				animation: svg-text-stroke 3s;
 				stroke-width: 2;
 				--text-color: var(--color--text);
+				font-family: 'Dancing Script Variable', cursive;
+				font-size: 106.667px;
 			}
 		}
 	}

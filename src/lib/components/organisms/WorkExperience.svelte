@@ -12,12 +12,18 @@
 	});
 </script>
 
-<ContentSection id="experience" title="Work Experience" description="">
+<ContentSection
+	id="experience"
+	title="Work Experience"
+	description="All the places I have worked professionally"
+>
 	<ul class="workex">
 		{#each workExperiences as workEx}
 			<li class="list-item">
 				<div class="small">
-					{formatter.format(workEx.startDate)} - {formatter.format(workEx.endDate)}
+					{formatter.format(workEx.startDate)} - {workEx.current
+						? 'Current'
+						: formatter.format(workEx.endDate)}
 				</div>
 				<div class="description {color}">
 					<div class="header">
@@ -46,16 +52,24 @@
 </ContentSection>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
 	.workex {
 		width: 100%;
 	}
 
 	.list-item {
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		flex-grow: inherit;
 		justify-content: space-around;
 		margin-bottom: 3%;
+
+		@include for-phone-only {
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+		}
 	}
 
 	.small {
@@ -64,6 +78,12 @@
 		font-size: 1.2rem;
 		font-family: var(--font--title);
 		font-weight: 600;
+
+		@include for-phone-only {
+			flex: auto;
+			padding-bottom: 10px;
+			font-size: 1rem;
+		}
 	}
 
 	.description {
@@ -78,16 +98,27 @@
 		overflow: hidden;
 		padding: 2%;
 
+		@include for-phone-only {
+			flex: auto;
+			padding-bottom: 10px;
+		}
+
 		.header {
 			font-size: 1.2rem;
 			font-family: var(--font--title);
 			font-weight: 600;
+			@include for-phone-only {
+				font-size: 1rem;
+			}
 		}
 
 		.subheader {
 			font-size: 1rem;
 			font-family: var(--font--title);
 			font-weight: 500;
+			@include for-phone-only {
+				font-size: 0.8rem;
+			}
 		}
 
 		.main-text {

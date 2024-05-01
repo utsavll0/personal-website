@@ -46,8 +46,12 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/dancing-script": "^5.0.18",
+		"@fontsource-variable/kantumruy-pro": "^5.0.14",
+		"@fontsource-variable/roboto-slab": "^5.0.20",
 		"@fontsource/inter": "^4.5.15",
 		"@fontsource/merriweather": "^4.5.14",
+		"@fontsource/syncopate": "^5.0.19",
 		"@fontsource/ubuntu-mono": "^4.5.11"
 	}
 }
