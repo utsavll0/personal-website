@@ -20,12 +20,14 @@
 		white-space: nowrap;
 
 		&.primary {
-			background-color: var(--color--primary-tint);
-			color: var(--color--primary);
+			// background-color: var(--color--primary-tint);
+			color: var(--color--text);
+			border: 1px solid #5c5470;
 		}
 		&.secondary {
-			background-color: var(--color--secondary-tint);
-			color: var(--color--secondary);
+			// background-color: var(--color--secondary-tint);
+			color: var(--color--text);
+			border: 1px solid #5c5470;
 		}
 	}
 </style>

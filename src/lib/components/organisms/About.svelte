@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image src="images/utsav_at_beach.jpg" alt="Image Avatar" />
+		<Image src="images/utsav-rounded.png" alt="Image Avatar" />
 	</div>
 </section>
 
@@ -80,9 +80,16 @@
 		}
 
 		.image {
-			width: 115%;
-			height: 115%;
-			background-color: var(--color--page-background);
+			width: 400px;
+			height: 400px;
+			overflow: hidden;
+			border-radius: 50%;
+			border: 1.5px solid var(--color--secondary-tint);
+
+			@include for-phone-only {
+				width: 200px;
+				height: 200px;
+			}
 		}
 	}
 </style>

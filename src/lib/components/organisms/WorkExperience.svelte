@@ -53,16 +53,12 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
-	.workex {
-		width: 100%;
-	}
 
 	.list-item {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
-		flex-grow: inherit;
-		justify-content: space-around;
+		justify-content: flex-start;
 		margin-bottom: 3%;
 
 		@include for-phone-only {
@@ -78,11 +74,13 @@
 		font-size: 1.2rem;
 		font-family: var(--font--title);
 		font-weight: 600;
+		align-content: center;
 
 		@include for-phone-only {
-			flex: auto;
+			flex: 1;
 			padding-bottom: 10px;
 			font-size: 1rem;
+			padding: 1%;
 		}
 	}
 
@@ -97,10 +95,12 @@
 		position: relative;
 		overflow: hidden;
 		padding: 2%;
+		margin-right: 2%;
 
 		@include for-phone-only {
-			flex: auto;
+			flex: 1;
 			padding-bottom: 10px;
+			padding: 5%;
 		}
 
 		.header {

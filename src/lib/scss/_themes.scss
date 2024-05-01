@@ -45,20 +45,20 @@
 }
 
 @mixin dark-theme {
-	@include define-color('primary', #1e5128);
-	@include define-color('primary-shade', #1e5128);
-	@include define-color('primary-tint', #d8e9a8);
+	@include define-color('primary', #c94e4e);
+	@include define-color('primary-shade', #070607);
+	@include define-color('primary-tint', #582233);
 
-	@include define-color('secondary', #d8e9a8);
-	@include define-color('secondary-shade', #d8e9a8);
-	@include define-color('secondary-tint', #1e5128);
+	@include define-color('secondary', #ff004d);
+	@include define-color('secondary-shade', #23103a);
+	@include define-color('secondary-tint', #c94e4e);
 
 	@include define-color('yellow', #ffd400);
 
 	@include define-color('text', #ffffff);
-	@include define-color('text-shade', #9eb4b5);
-	@include define-color('text-inverse', #1c1e26);
-	@include define-color('text-inverse-shade', #5d5f65);
+	@include define-color('text-shade', #ffffff);
+	@include define-color('text-inverse', #ffffff);
+	@include define-color('text-inverse-shade', #ffffff);
 
 	@include define-color('page-background', #1c1e26);
 	@include define-color('post-page-background', #141519);
