@@ -15,7 +15,7 @@
 			endDate: 2023,
 			tags: [{ label: 'Unity 2D' }]
 		}
-	] as WorkEx[];
+	] as unknown as WorkEx[];
 </script>
 
 <Hst.Story title="Organisms/WorkExperience" layout={{ type: 'single', iframe: true }}>

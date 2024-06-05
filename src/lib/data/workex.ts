@@ -5,7 +5,7 @@ export default [
 		company: 'NC State Nuclear Engineering Department',
 		designation: 'Graduate Student Researcher',
 		description:
-			'Working as a software developer under Dr Mihai, I helped him develop the admin and user profile pages for the OpenPRA app. The app helps design probabilistic designs like Bayesian Networks, Fault Tree Diagrams and many more.',
+			'As a software developer on the OpenPRA app, I developed the admin and user profile pages, and implemented features for creating and managing new users and invites to the application. I also began integrating role-based access control into both the frontend and backend services.',
 		startDate: new Date('2023-12-07'),
 		endDate: new Date('2024-05-31'),
 		tags: [
@@ -21,7 +21,7 @@ export default [
 		company: 'Makkajai, Remote, India',
 		designation: 'Software Development Engineer - 1',
 		description:
-			'My role was of a general software engineer. I worked on total of 8 mobile games built using Unity and Cocos2D-X. Apart from this, I also had the responsibility of handling the backend and data analytics servers of the applications. As I gained experience, I was also charged with pitching new changes or bug fixes within the ideas and leading them as a sole developer.',
+			'At Makkajai, I worked as a general software engineer. As part of a small team, I was responsible for managing 8 mobile apps for iOS and Android. My daily tasks included ensuring our games were bug-free and maintaining the stability of our backend services. I also led several infrastructure improvement projects, such as deploying a new analytics server and upgrading deprecated services to the latest versions. As my responsibilities expanded, I occasionally managed and led projects to completion.',
 		startDate: new Date('2021-04-26'),
 		endDate: new Date('2023-07-31'),
 		tags: [
@@ -40,7 +40,7 @@ export default [
 		company: 'Brainscale, Pune (Remote), India',
 		designation: 'Junior Cloud Engineer',
 		description:
-			'I was a cloud engineer specializing in Microsoft Azure. I led the development of a test automation framework for a multi-million dollar project using Python Behave. Apart from this I also worked on internal projects such as adding new billing visualizations and building a teams chat bot. I also built an internal portal for project managers to track and analyze employee work hours.',
+			'At Brainscale, as a full stack cloud developer specializing in Microsoft Azure, I worked on various projects, with my proudest achievement being the development of a test automation framework for a multi-million dollar project using Python Behave. Additionally, I built a chatbot for querying Azure Billing Costs on Microsoft Teams and created an internal portal to analyze employee workload analytics using Power BI. During my time at Brainscale, I also became 2x Azure cloud certified and developed additional skills in customer service and customer support.',
 		startDate: new Date('2019-11-08'),
 		endDate: new Date('2021-04-24'),
 		tags: [
@@ -57,7 +57,7 @@ export default [
 		company: 'Tech Mahindra Ltd, Pune, India',
 		designation: 'Associate Software Engineer',
 		description:
-			'My first company where I learnt the ropes of software engineer. I completed trainings on Java, HTML, CSS, JS, SQL among other things. I also learned the ways of Agile development and Scrum meetings.',
+			'My initial company where I gained foundational skills in software engineering. I completed training in Java, HTML, CSS, JavaScript, SQL, and more. Additionally, I became familiar with Agile development practices and participated in Scrum meetings.',
 		startDate: new Date('2019-07-31'),
 		endDate: new Date('2019-11-07'),
 		tags: [

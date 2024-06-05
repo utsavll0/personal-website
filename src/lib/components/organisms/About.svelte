@@ -7,7 +7,7 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Passionate, disciplined and
+			Passionate, Disciplined and
 			<SparklingHighlight color="secondary">Curious!</SparklingHighlight>
 		</h2>
 		<p>

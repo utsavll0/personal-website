@@ -15,7 +15,7 @@
 <ContentSection
 	id="experience"
 	title="Work Experience"
-	description="All the places I have worked professionally"
+	description="My journey as a professional engineer"
 >
 	<ul class="workex">
 		{#each workExperiences as workEx}

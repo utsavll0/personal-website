@@ -19,8 +19,5 @@
 	<Hero />
 	<About />
 	<Features {features} />
-	<!-- {#if posts && posts.length > 0}
-		<RecentPosts {posts} />
-	{/if} -->
 	<WorkExperience workExperiences={workex} />
 </div>
