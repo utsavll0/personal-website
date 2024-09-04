@@ -15,12 +15,17 @@ export type TagType = {
 
 export type SocialLink = {};
 
+const projectTypes = ['Full Stack', 'Games', 'Work', 'ML/AI', 'Others'] as const;
+
+export type ProjectType = (typeof projectTypes)[number];
+
 export type Feature = {
 	name: string;
 	description: string;
 	image: string;
 	tags: TagType[];
 	url: string;
+	type: ProjectType[];
 };
 
 export type BlogPost = {
@@ -46,4 +51,15 @@ export type WorkEx = {
 	description: string;
 	tags: TagType[];
 	current: boolean;
+};
+
+export type ProjectStatus = 'Completed' | 'In Progress' | 'Limbo';
+
+export type Projects = {
+	name: string;
+	start: Date;
+	end: Date | null;
+	status: ProjectStatus;
+	description: string;
+	images: string[] | null;
 };

@@ -2,7 +2,26 @@ import type { WorkEx } from '$lib/utils/types';
 
 export default [
 	{
-		company: 'NC State Nuclear Engineering Department',
+		company: 'XLOC, Raleigh, NC',
+		designation: 'Programming Intern',
+		description:
+			'As a programming intern, I am helping build the next version of XLOC which is a CMS application used by studios like Bethesda and Activision. I am also utilizing my skills in AWS cloud to streamline deployment methods and improving existing infrastructure.',
+		startDate: new Date('2024-06-24'),
+		tags: [
+			{ label: 'AWS', color: 'primary' },
+			{ label: 'CloudFormation', color: 'secondary' },
+			{ label: 'ASP.NET', color: 'primary' },
+			{ label: 'VB', color: 'secondary' },
+			{ label: 'SQL Server', color: 'primary' },
+			{ label: 'CodeDeploy', color: 'secondary' },
+			{ label: 'EC2', color: 'secondary' },
+			{ label: 'S3', color: 'secondary' },
+			{ label: 'Elastic LoadBalancers', color: 'secondary' }
+		],
+		current: true
+	},
+	{
+		company: 'NC State Nuclear Engineering Department, Raleigh, NC',
 		designation: 'Graduate Student Researcher',
 		description:
 			'As a software developer on the OpenPRA app, I developed the admin and user profile pages, and implemented features for creating and managing new users and invites to the application. I also began integrating role-based access control into both the frontend and backend services.',
@@ -15,7 +34,7 @@ export default [
 			{ label: 'Node', color: 'secondary' },
 			{ label: 'MongoDB', color: 'primary' }
 		],
-		current: true
+		current: false
 	},
 	{
 		company: 'Makkajai, Remote, India',

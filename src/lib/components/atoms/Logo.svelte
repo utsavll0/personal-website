@@ -1,5 +1,6 @@
 <script>
 	export let animated = true;
+	export let text = 'Utsavkumar Lal';
 </script>
 
 <div class="logo" class:animated>
@@ -13,7 +14,7 @@
 	>
 		<text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)"
 			><tspan x="275.57227" y="292.17088" id="tspan1319"
-				><tspan style="" id="tspan1317">Utsavkumar Lal</tspan></tspan
+				><tspan style="" id="tspan1317">{text}</tspan></tspan
 			></text
 		>
 	</svg>

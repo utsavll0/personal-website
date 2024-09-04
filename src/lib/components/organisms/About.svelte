@@ -7,15 +7,15 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Passionate, Disciplined and
+			Passionate, Hard Working and
 			<SparklingHighlight color="secondary">Curious!</SparklingHighlight>
 		</h2>
 		<p>
-			After gaining four years of experience as a software engineer, I've built a range of products
-			including web and mobile applications. Moving forward, I plan to use my skills to develop
-			something meaningful and influential in my next project. Outside of coding, I enjoy watching
-			tennis or cricket, and I often spend my free time playing video games. I have a passion for
-			understanding how things work in the world and sharing fascinating facts with others.
+			With a strong background and experience in software development, I'm seeking a new role that
+			will consistently challenge me. Given my diverse experience, I'm interested in positions in
+			full stack software engineering and game development. In addition to my enthusiasm for coding,
+			I enjoy playing badminton in my spare time and watching various sports. I'm also fascinated by
+			how things work and have a lot of random knowledge that I love to share with others.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>

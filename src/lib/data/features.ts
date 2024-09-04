@@ -7,7 +7,8 @@ export default [
 			'This app built using Spring Boot and NextJS helps track animal movement across America. The animal data is stored in a PostgresSQL server. The app can be one clicked deployed using docker compose and runs perfectly out of the box.',
 		image: 'images/animal_farm.png',
 		tags: [{ label: 'Java' }, { label: 'Typescript', color: 'secondary' }, { label: 'Docker' }],
-		url: 'https://github.com/utsavll0/movement-app'
+		url: 'https://github.com/utsavll0/movement-app',
+		type: ['Full Stack']
 	},
 	{
 		name: 'Burnout',
@@ -20,7 +21,8 @@ export default [
 			{ label: 'CSS', color: 'primary' },
 			{ label: 'JS', color: 'secondary' }
 		],
-		url: 'https://github.com/utsavll0/calorieApp_server'
+		url: 'https://github.com/utsavll0/calorieApp_server',
+		type: ['Full Stack']
 	},
 	{
 		name: 'Redshift Import Plugin - Posthog',
@@ -28,7 +30,8 @@ export default [
 			'Contributed to Posthog analytics app by helping build the Redshift import plugin - A plugin to transfer existing analytics data from redshift to posthog',
 		image: 'images/osc.png',
 		tags: [{ label: 'Typescript' }],
-		url: 'https://github.com/PostHog/posthog-redshift-import-plugin'
+		url: 'https://github.com/PostHog/posthog-redshift-import-plugin',
+		type: 'Others'
 	},
 	{
 		name: 'Spendwise',
@@ -40,7 +43,8 @@ export default [
 			{ label: 'Python' },
 			{ label: 'Telegram Bot', color: 'secondary' },
 			{ label: 'Speech to Text' }
-		]
+		],
+		type: ['Full Stack']
 	},
 	{
 		name: 'Reinforcement Learning Car',
@@ -53,18 +57,53 @@ export default [
 			{ label: 'Unity 3D', color: 'secondary' },
 			{ label: 'Python', color: 'primary' },
 			{ label: 'PyTorch', color: 'secondary' }
-		]
+		],
+		type: ['Games', 'ML/AI']
 	},
 	{
 		name: 'Predicting NBA match outcome',
 		description:
-			'A data engineering and data science project to explore joininng two different datasets of varying origin. Further on the project explores training Naive Bayes and Nueral Network models to predict outcome of matches',
+			'A data engineering and data science project to explore joining two different datasets of varying origin. Further on the project explores training Naive Bayes and Nueral Network models to predict outcome of matches',
 		image: 'images/basketball.png',
 		url: 'https://github.com/utsavll0/NBA-match-predictor/',
 		tags: [
 			{ label: 'Python' },
 			{ label: 'Pandas', color: 'secondary' },
 			{ label: 'Sklearn', color: 'primary' }
-		]
+		],
+		type: ['ML/AI']
+	},
+	{
+		name: "Boid's Flocking Algorithm",
+		description:
+			"A game project which demonstrates various algorithms that a character in a game can have. The algorithms include arrive at a point, look in the direction of the movement, wander randomly, avoid colliding with other characters. As a final demo, use all these behaviors to simulate flocking behavior called as Boid's algorithm.",
+		image: 'images/boid.png',
+		url: 'https://github.com/utsavll0/Boid-s-Algorithm',
+		tags: [
+			{ label: 'C++', color: 'primary' },
+			{ label: 'SFML', color: 'secondary' },
+			{ label: 'Make', color: 'primary' }
+		],
+		type: ['Games']
+	},
+	{
+		name: 'E-commerce backend',
+		description: 'A backend project to expore ways of implementing REST Apis in Go.',
+		image: 'images/ecom.png',
+		url: 'https://github.com/utsavll0/ecom',
+		tags: [{ label: 'Go', color: 'primary' }],
+		type: ['Full Stack']
+	},
+	{
+		name: 'Mario Clone',
+		description:
+			'Designed and developed a clone of the popular game Mario using Godot engine and GD Script programming language',
+		image: 'images/mario.png',
+		url: 'https://github.com/utsavll0/mario-clone',
+		tags: [
+			{ label: 'Godot', color: 'primary' },
+			{ label: 'GDScript', color: 'secondary' }
+		],
+		type: ['Games']
 	}
 ] as Feature[];

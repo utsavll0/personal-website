@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import RssLink from '$lib/components/atoms/RssLink.svelte';
+	import Button from '../atoms/Button.svelte';
 
 	export let showBackground = false;
 </script>
