@@ -88,7 +88,7 @@
 				<FeatureCard
 					name={feature.name}
 					description={feature.description}
-					image={`${feature.image}?v=${$currentPage}`}
+					image={`${feature.image}?v=${Date.now()}`}
 					tags={feature.tags}
 					url={feature.url}
 				/>
