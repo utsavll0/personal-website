@@ -3,7 +3,6 @@
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
 	import Medium from '$lib/icons/socials/medium.svelte';
-	import Prev from '$lib/icons/page-next.svelte';
 
 	const recipient = 'utsavll0@gmail.com';
 	const subject = 'Hello Utsav';
@@ -40,10 +39,6 @@
 		title="View my medium!!"
 	>
 		<Medium />
-	</a>
-
-	<a href="https://medium.com/@utsavkumarlal">
-		<Prev />
 	</a>
 </div>
 
