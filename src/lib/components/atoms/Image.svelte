@@ -10,6 +10,8 @@
 
 	$: fileName = src.split('.')[0];
 
+	$: console.log('Srcset:', buildSrcset());
+
 	function buildSrcset() {
 		if (dev) return;
 
