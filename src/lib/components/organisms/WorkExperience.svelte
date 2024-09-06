@@ -15,7 +15,7 @@
 <ContentSection
 	id="experience"
 	title="Work Experience"
-	description="My journey as a professional engineer"
+	description="Building products for the real world helped me think about scale, availibility and quality of code."
 >
 	<ul class="workex">
 		{#each workExperiences as workEx}
@@ -53,6 +53,10 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
+
+	.workex {
+		margin: 0;
+	}
 
 	.list-item {
 		width: 100%;

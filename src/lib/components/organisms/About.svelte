@@ -7,18 +7,16 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Passionate, Hard Working and
+			Problem Solver, Hard Working and
 			<SparklingHighlight color="secondary">Curious!</SparklingHighlight>
 		</h2>
 		<p>
-			With a strong background and experience in software development, I'm seeking a new role that
-			will consistently challenge me. Given my diverse experience, I'm interested in positions in
-			full stack software engineering and game development. In addition to my enthusiasm for coding,
-			I enjoy playing badminton in my spare time and watching various sports. I'm also fascinated by
-			how things work and have a lot of random knowledge that I love to share with others.
+			I'm a passionate software engineer and game developer who loves creating immersive digital
+			worlds. When I'm not thinking in code, I'm tuning into tennis, playing badminton, or rocking
+			out to my favorite bands. My creativity flows both in the games I craft and the experiences I
+			enjoy.
 		</p>
 		<div class="socials">
-			<span>Socials:</span>
 			<Socials />
 		</div>
 	</div>
@@ -66,6 +64,7 @@
 		}
 
 		.socials {
+			margin: 5px;
 			display: flex;
 			align-items: center;
 			gap: 15px;

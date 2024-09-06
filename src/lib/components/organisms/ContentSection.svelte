@@ -1,4 +1,6 @@
 <script lang="ts">
+	import SparklingHighlight from '../molecules/SparklingHighlight.svelte';
+
 	export let id: string | undefined = undefined;
 	export let title: string | undefined = undefined;
 	export let description: string | undefined = undefined;
@@ -12,11 +14,11 @@
 			<div class="text">
 				{#if title}
 					<h2>
-						{title}
+						<SparklingHighlight color="secondary">{title}</SparklingHighlight>
 					</h2>
 				{/if}
 				{#if description}
-					<p>
+					<p class="description">
 						{description}
 					</p>
 				{/if}
@@ -61,6 +63,11 @@
 				gap: 5px;
 			}
 		}
+
+		.description {
+			padding-bottom: 10px;
+		}
+
 		.content-area {
 			flex: 5;
 

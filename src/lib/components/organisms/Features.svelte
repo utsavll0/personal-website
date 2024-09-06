@@ -17,7 +17,11 @@
 	features = shuffleArray([...features]);
 </script>
 
-<ContentSection id="features" title="Projects" description="Here are some of my top projects">
+<ContentSection
+	id="features"
+	title="Projects"
+	description="I like to dabble into many things including but not limited to"
+>
 	<div class="features-container">
 		<div class="three-group-grid">
 			{#each features as feature}
@@ -46,36 +50,15 @@
 	.three-group-grid {
 		width: 100%;
 		display: grid;
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: repeat(3, 1fr); // 3 equal columns
 		grid-gap: 20px;
 
 		@media (max-width: 1085px) {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: repeat(2, 1fr); // 2 columns for medium screens
 		}
 
 		@include for-phone-only {
-			grid-template-columns: 1fr;
-		}
-
-		// Select every 3 elements, starting from position 2
-		// And make it take up 2 rows
-		@media (min-width: 1086px) {
-			> :global(:nth-child(3n + 2)) {
-				grid-row: span 2;
-			}
-		}
-
-		// Select every 3 elements, starting from position 1
-		// And make it take up 2 columns
-		> :global(:nth-child(3n + 1)) {
-			@media (max-width: 1085px) {
-				grid-column: span 2;
-			}
-
-			@include for-tablet-portrait-down {
-				grid-template-columns: 1fr;
-				grid-column: unset;
-			}
+			grid-template-columns: 1fr; // 1 column for small screens
 		}
 	}
 </style>

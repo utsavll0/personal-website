@@ -14,28 +14,24 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">Hi! I am Utsav!!!</h1>
+	<h1 class="hello">Hello, I am Utsav</h1>
 	<p class="intro">
-		<span class="left">I'm a seasoned software engineer,</span>
-		<span class="right">working towards a computer science degree</span>
+		<span class="left">A seasoned engineer who</span>
+		<span class="right">can turn ideas into code</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://github.com/utsavll0/personal-website">
-				<GitHubIcon slot="icon" />
-				Source Code
+			<Button
+				color="secondary"
+				href="https://drive.google.com/uc?export=download&id=1YGC0tc_WThLM8ufXjoLzNNkHjE-6VpdZ"
+			>
+				<Download slot="icon" />
+				My CV
 			</Button>
 		</Sparkles>
-		<Button
-			color="secondary"
-			href="https://drive.google.com/uc?export=download&id=1YGC0tc_WThLM8ufXjoLzNNkHjE-6VpdZ"
-		>
-			<Download slot="icon" />
-			Resume
-		</Button>
 		<Button color="primary" href={mailToUrl}>
 			<Mail slot="icon" />
-			Contact Me
+			Contact me
 		</Button>
 	</div>
 </section>
