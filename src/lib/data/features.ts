@@ -77,7 +77,7 @@ export default [
 		name: "Boid's Flocking Algorithm",
 		description:
 			"A game project which demonstrates various algorithms that a character in a game can have. The algorithms include arrive at a point, look in the direction of the movement, wander randomly, avoid colliding with other characters. As a final demo, use all these behaviors to simulate flocking behavior called as Boid's algorithm.",
-		image: 'images/boid.png',
+		image: 'images/boid.jpeg',
 		url: 'https://github.com/utsavll0/Boid-s-Algorithm',
 		tags: [
 			{ label: 'C++', color: 'primary' },
@@ -105,5 +105,30 @@ export default [
 			{ label: 'GDScript', color: 'secondary' }
 		],
 		type: ['Games']
+	},
+	{
+		name: 'Shade Engine',
+		description:
+			'A full fledged game engine built using SDL2 and C++. It features a fully functional physics engine full with collisions, gravity and friction. It is based on entity component system archtiecture, fully multi threaded and has a built in support for networking.',
+		image: 'images/shade.jpeg',
+		url: 'https://github.com/jayeshCodes/Shade-GameEngine',
+		tags: [
+			{ label: 'SDL2', color: 'primary' },
+			{ label: 'C++', color: 'secondary' }
+		],
+		type: ['Games']
+	},
+	{
+		name: 'Course Manager',
+		description:
+			'A full fledged React app to manage courses. The app is built using React and Flask. The main motivation was to build our own ORM and use it to manage the database.',
+		image: 'images/course.jpeg',
+		url: 'https://github.com/SwarajKaondal/Course-Manager',
+		tags: [
+			{ label: 'Python', color: 'primary' },
+			{ label: 'React', color: 'secondary' },
+			{ label: 'SQL', color: 'primary' }
+		],
+		type: ['Full Stack']
 	}
 ] as Feature[];

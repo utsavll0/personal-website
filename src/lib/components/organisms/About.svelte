@@ -11,10 +11,11 @@
 			<SparklingHighlight color="secondary">Curious!</SparklingHighlight>
 		</h2>
 		<p>
-			I'm a passionate software engineer and game developer who loves creating immersive digital
-			worlds. When I'm not thinking in code, I'm tuning into tennis, playing badminton, or rocking
-			out to my favorite bands. My creativity flows both in the games I craft and the experiences I
-			enjoy.
+			I am a software engineer with a strong passion for developing innovative solutions. I thrive
+			on challenges and actively seek opportunities for learning and growth. With expertise in
+			full-stack software engineering, I also have a solid foundation in AI and LLMs. My
+			adaptability and quick learning abilities enable me to efficiently acquire and apply new
+			technologies and concepts. I am eager to connect and collaborate on impactful projects.
 		</p>
 		<div class="socials">
 			<Socials />

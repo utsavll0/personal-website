@@ -5,30 +5,32 @@
 	export let style: 'solid' | 'understated' | 'clear' = 'solid';
 	export let size: 'small' | 'medium' | 'large' = 'medium';
 	export let href: string | undefined = undefined;
-
 	export let additionalClass: string | undefined = undefined;
+	export let disabled: boolean = false; // ✅ Added disabled prop
 
 	const isExternalLink = !!href && HttpRegex.test(href);
 	export let target: '_self' | '_blank' = isExternalLink ? '_blank' : '_self';
 	export let rel = isExternalLink ? 'noopener noreferrer' : undefined;
 
 	$: tag = href ? 'a' : 'button';
-	$: linkProps = {
-		href,
-		target,
-		rel
-	};
+	$: linkProps = href ? { href, target, rel } : {}; // ✅ Don't include href-related properties if it's a button
 </script>
 
 <svelte:element
 	this={tag}
 	{...linkProps}
-	class={['button', `style--${style}`, `size--${size}`, `color--${color}`, additionalClass].join(
-		' '
-	)}
+	class={[
+		'button',
+		`style--${style}`,
+		`size--${size}`,
+		`color--${color}`,
+		disabled ? 'disabled' : '',
+		additionalClass
+	].join(' ')}
 	data-sveltekit-preload-data
 	on:click
 	{...$$restProps}
+	{...tag === 'button' ? { disabled } : {}}
 >
 	{#if $$slots['icon']}
 		<div class="icon">
@@ -127,6 +129,13 @@
 					height: 28px;
 				}
 			}
+		}
+
+		/* Disabled State */
+		&.disabled {
+			cursor: not-allowed;
+			opacity: 0.5;
+			pointer-events: none;
 		}
 	}
 </style>
