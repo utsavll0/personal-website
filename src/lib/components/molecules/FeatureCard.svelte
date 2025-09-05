@@ -5,6 +5,7 @@
 	import Image from '../atoms/Image.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 
+	export let id: number;
 	export let name: string;
 	export let description: string;
 	export let image: string;
@@ -12,7 +13,7 @@
 	export let url: string | undefined;
 </script>
 
-<Card additionalClass="feature-card">
+<Card additionalClass="feature-card" id={'feature-' + id}>
 	<div class="image" slot="image">
 		<Image src={image} alt="Picture describing the {name} feature" />
 	</div>

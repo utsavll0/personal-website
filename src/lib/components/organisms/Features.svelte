@@ -50,6 +50,7 @@
 		<div class="three-group-grid">
 			{#each paginatedFeatures as feature}
 				<FeatureCard
+					id={features.indexOf(feature)}
 					name={feature.name}
 					description={feature.description}
 					image={feature.image}
