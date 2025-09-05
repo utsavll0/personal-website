@@ -23,10 +23,10 @@
 		<Sparkles>
 			<Button
 				color="secondary"
-				href="https://drive.google.com/uc?export=download&id=1YGC0tc_WThLM8ufXjoLzNNkHjE-6VpdZ"
+				href="https://docs.google.com/document/d/1R4ix8Pft5z1UzyQ5ZfS2AQOrAoec7YLjoNWMbvMsMNc/edit?usp=sharing"
 			>
 				<Download slot="icon" />
-				My CV
+				Resume
 			</Button>
 		</Sparkles>
 		<Button color="primary" href={mailToUrl}>
