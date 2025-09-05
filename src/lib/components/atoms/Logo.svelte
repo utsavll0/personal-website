@@ -12,10 +12,13 @@
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>
-		<text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)"
-			><tspan x="275.57227" y="292.17088" id="tspan1319"
-				><tspan style="" id="tspan1317">{text}</tspan></tspan
-			></text
+		<text
+			xml:space="preserve"
+			id="text"
+			y="70"
+			text-anchor="start"
+			dominant-baseline="middle"
+			style="font-family: 'Dancing Script Variable', cursive; font-size: 100px;">{text}</text
 		>
 	</svg>
 </div>
@@ -38,7 +41,7 @@
 		#logo-text {
 			width: auto;
 			height: 100%;
-			max-height: 28px;
+			max-height: 40px;
 
 			#text {
 				transition: all 0.2s ease-in-out;

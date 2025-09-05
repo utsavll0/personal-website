@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import Button from '../atoms/Button.svelte';
 
 	export let showBackground = false;
 </script>
@@ -11,7 +10,7 @@
 		<a class="logo" href="/" aria-label="Site logo">
 			<Logo />
 		</a>
-		<div class="links">
+		<div>
 			<ThemeToggle />
 		</div>
 	</nav>
@@ -51,28 +50,11 @@
 		}
 
 		.logo {
-			height: 44px;
-			flex: 1;
+			flex: auto;
 		}
 
 		a {
 			color: var(--color--text);
-		}
-
-		.links {
-			display: flex;
-			align-items: center;
-			justify-content: flex-end;
-			gap: 30px;
-
-			a {
-				text-decoration: none;
-
-				&:hover {
-					color: var(--color--primary);
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
-				}
-			}
 		}
 	}
 </style>
