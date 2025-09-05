@@ -2,56 +2,61 @@ import type { WorkEx } from '$lib/utils/types';
 
 export default [
 	{
-		company: 'XLOC, Raleigh, NC',
-		designation: 'Programming Intern',
+		company: 'OpenPRA Org @ NC State University, Raleigh, NC',
+		designation: 'Research Software Engineer',
 		description:
-			'As a programming intern, I am helping build the next version of XLOC which is a CMS application used by studios like Bethesda and Activision. I am also utilizing my skills in AWS cloud to streamline deployment methods and improving existing infrastructure.',
-		startDate: new Date('2024-06-24'),
+			'At OpenPRA, I work as a Research Software Engineer on a team developing an open-source platform for probabilistic risk assessment (PRA) of nuclear reactors. My primary focus is designing and building intuitive, scalable front-end user interfaces and seamlessly integrating them with back-end services to ensure performance and reliability. In addition to core development, I contribute to the team’s growth by mentoring junior engineers, leading onboarding efforts, and running training sessions to accelerate knowledge transfer and collaboration',
+		startDate: new Date('2023-12-07'),
+		endDate: new Date('2024-05-31'),
 		tags: [
-			{ label: 'AWS', color: 'primary' },
-			{ label: 'CloudFormation', color: 'secondary' },
-			{ label: 'ASP.NET', color: 'primary' },
-			{ label: 'VB', color: 'secondary' },
-			{ label: 'SQL Server', color: 'primary' },
-			{ label: 'CodeDeploy', color: 'secondary' },
-			{ label: 'EC2', color: 'secondary' },
-			{ label: 'S3', color: 'secondary' },
-			{ label: 'Elastic LoadBalancers', color: 'secondary' }
+			{ label: 'Software Development', color: 'primary' },
+			{ label: 'System Design', color: 'secondary' },
+			{ label: 'Scalable Architecture', color: 'primary' },
+			{ label: 'Python', color: 'secondary' },
+			{ label: 'Java', color: 'primary' },
+			{ label: 'Node.JS', color: 'secondary' },
+			{ label: 'React', color: 'primary' },
+			{ label: 'TypeScript', color: 'secondary' }
 		],
 		current: true
 	},
 	{
-		company: 'NC State Nuclear Engineering Department, Raleigh, NC',
-		designation: 'Graduate Student Researcher',
+		company: 'XLOC (Keywords Studios), Remote, USA',
+		designation: 'Software Engineer Intern',
 		description:
-			'As a software developer on the OpenPRA app, I developed the admin and user profile pages, and implemented features for creating and managing new users and invites to the application. I also began integrating role-based access control into both the frontend and backend services.',
-		startDate: new Date('2023-12-07'),
-		endDate: new Date('2024-05-31'),
+			'At XLOC, I worked as a Software Engineer Intern on the team responsible for developing and maintaining the company’s SaaS application. My primary focus was on enhancing and optimizing the core platform while also building new features to streamline workflows and improve efficiency. Beyond development, I actively contributed to code reviews and collaborated closely with teammates to ensure adherence to high-quality coding standards and best practices',
+		startDate: new Date('2024-06-24'),
+		endDate: new Date('2025-05-03'),
 		tags: [
+			{ label: 'Cloud Computing', color: 'primary' },
+			{ label: 'Web Application Development', color: 'secondary' },
+			{ label: 'Backend Development', color: 'primary' },
+			{ label: 'Python', color: 'secondary' },
+			{ label: 'Java', color: 'primary' },
+			{ label: 'C#', color: 'secondary' },
 			{ label: 'React', color: 'primary' },
-			{ label: 'Elastic UI', color: 'secondary' },
-			{ label: 'NestJS', color: 'primary' },
-			{ label: 'Node', color: 'secondary' },
-			{ label: 'MongoDB', color: 'primary' }
+			{ label: 'TypeScript', color: 'secondary' },
+			{ label: 'AWS', color: 'primary' }
 		],
 		current: false
 	},
 	{
 		company: 'Makkajai, Remote, India',
-		designation: 'Software Development Engineer - 1',
+		designation: 'Software Development Engineer',
 		description:
-			'At Makkajai, I worked as a general software engineer. As part of a small team, I was responsible for managing 8 mobile apps for iOS and Android. My daily tasks included ensuring our games were bug-free and maintaining the stability of our backend services. I also led several infrastructure improvement projects, such as deploying a new analytics server and upgrading deprecated services to the latest versions. As my responsibilities expanded, I occasionally managed and led projects to completion.',
+			'At Makkajai, a fast-growing edtech startup, I worked as a Software Engineer with broad ownership across a suite of 8 high-scale mobile apps on iOS and Android. In a fast-paced environment with rapid release cycles, I ensured our games remained stable, reliable, and engaging for millions of active users, while also maintaining the performance of critical backend services. I led several infrastructure improvement initiatives that strengthened system reliability and supported the company’s growth. As my role expanded, I frequently took full ownership of projects—from planning through execution—driving them to successful completion and directly contributing to the team’s velocity and impact',
 		startDate: new Date('2021-04-26'),
 		endDate: new Date('2023-07-31'),
 		tags: [
-			{ label: 'Cocos2D-X', color: 'primary' },
-			{ label: 'Unity2D', color: 'secondary' },
-			{ label: 'Spring Boot', color: 'primary' },
-			{ label: 'AWS Elastic Beanstalk', color: 'secondary' },
-			{ label: 'Redshift', color: 'primary' },
-			{ label: 'React', color: 'secondary' },
+			{ label: 'Full Stack Development', color: 'primary' },
+			{ label: 'Mobile Application Development', color: 'secondary' },
+			{ label: 'Infrastructure Improvements', color: 'primary' },
+			{ label: 'Python', color: 'secondary' },
+			{ label: 'Java', color: 'primary' },
+			{ label: 'C#', color: 'secondary' },
 			{ label: 'Flutter', color: 'primary' },
-			{ label: 'Flutter', color: 'secondary' }
+			{ label: 'TypeScript', color: 'secondary' },
+			{ label: 'AWS', color: 'primary' }
 		],
 		current: false
 	},
@@ -59,35 +64,18 @@ export default [
 		company: 'Brainscale, Pune (Remote), India',
 		designation: 'Junior Cloud Engineer',
 		description:
-			'At Brainscale, as a full stack cloud developer specializing in Microsoft Azure, I worked on various projects, with my proudest achievement being the development of a test automation framework for a multi-million dollar project using Python Behave. Additionally, I built a chatbot for querying Azure Billing Costs on Microsoft Teams and created an internal portal to analyze employee workload analytics using Power BI. During my time at Brainscale, I also became 2x Azure cloud certified and developed additional skills in customer service and customer support.',
+			'At Brainscale, I worked as a Full Stack Cloud Developer specializing in Microsoft Azure, contributing to multiple high-impact projects. My proudest achievement was designing and implementing a test automation framework that streamlined quality assurance for a multi-million-dollar engagement, significantly improving efficiency and reliability. I also developed a chatbot to provide real-time visibility into billing costs, and created an internal portal to track and analyze employee workload analytics, enhancing team productivity and resource planning. During this time, I earned two cloud certifications and strengthened my skills in both technical delivery and customer-facing support, enabling me to contribute across engineering and client engagements',
 		startDate: new Date('2019-11-08'),
 		endDate: new Date('2021-04-24'),
 		tags: [
+			{ label: 'Cloud Development', color: 'primary' },
+			{ label: 'Automation Frameworks', color: 'secondary' },
+			{ label: 'Data Analytics', color: 'primary' },
+			{ label: 'Python', color: 'secondary' },
+			{ label: 'C#', color: 'secondary' },
 			{ label: 'ASP.NET', color: 'primary' },
-			{ label: 'Python Behave', color: 'secondary' },
-			{ label: 'Selenium', color: 'primary' },
 			{ label: 'Azure', color: 'secondary' },
-			{ label: 'Mirosoft Bot Framework', color: 'primary' },
-			{ label: 'Angular', color: 'secondary' }
-		],
-		current: false
-	},
-	{
-		company: 'Tech Mahindra Ltd, Pune, India',
-		designation: 'Associate Software Engineer',
-		description:
-			'My initial company where I gained foundational skills in software engineering. I completed training in Java, HTML, CSS, JavaScript, SQL, and more. Additionally, I became familiar with Agile development practices and participated in Scrum meetings.',
-		startDate: new Date('2019-07-31'),
-		endDate: new Date('2019-11-07'),
-		tags: [
-			{ label: 'Java', color: 'primary' },
-			{ label: 'Oracle SQL', color: 'secondary' },
-			{ label: 'Spring', color: 'primary' },
-			{ label: 'HTML', color: 'secondary' },
-			{ label: 'CSS', color: 'primary' },
-			{ label: 'Javascript', color: 'secondary' },
-			{ label: 'Agile', color: 'primary' },
-			{ label: 'Scrum', color: 'secondary' }
+			{ label: 'SQL', color: 'primary' }
 		],
 		current: false
 	}

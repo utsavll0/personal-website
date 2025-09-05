@@ -39,7 +39,7 @@
 <ContentSection
 	id="features"
 	title="Projects"
-	description="A small showcase for my technical skills!"
+	description="A glimpse into my technical problem-solving and creativity through diverse projects."
 >
 	<div class="features-container">
 		<div class="pagination">

@@ -74,39 +74,6 @@ export default [
 		type: ['ML/AI']
 	},
 	{
-		name: "Boid's Flocking Algorithm",
-		description:
-			"A game project which demonstrates various algorithms that a character in a game can have. The algorithms include arrive at a point, look in the direction of the movement, wander randomly, avoid colliding with other characters. As a final demo, use all these behaviors to simulate flocking behavior called as Boid's algorithm.",
-		image: 'images/boid.jpeg',
-		url: 'https://github.com/utsavll0/Boid-s-Algorithm',
-		tags: [
-			{ label: 'C++', color: 'primary' },
-			{ label: 'SFML', color: 'secondary' },
-			{ label: 'Make', color: 'primary' }
-		],
-		type: ['Games']
-	},
-	{
-		name: 'E-commerce backend',
-		description: 'A backend project to expore ways of implementing REST Apis in Go.',
-		image: 'images/ecom.png',
-		url: 'https://github.com/utsavll0/ecom',
-		tags: [{ label: 'Go', color: 'primary' }],
-		type: ['Full Stack']
-	},
-	{
-		name: 'Mario Clone',
-		description:
-			'Designed and developed a clone of the popular game Mario using Godot engine and GD Script programming language',
-		image: 'images/mario.png',
-		url: 'https://github.com/utsavll0/mario-clone',
-		tags: [
-			{ label: 'Godot', color: 'primary' },
-			{ label: 'GDScript', color: 'secondary' }
-		],
-		type: ['Games']
-	},
-	{
 		name: 'Shade Engine',
 		description:
 			'A full fledged game engine built using SDL2 and C++. It features a fully functional physics engine full with collisions, gravity and friction. It is based on entity component system archtiecture, fully multi threaded and has a built in support for networking.',

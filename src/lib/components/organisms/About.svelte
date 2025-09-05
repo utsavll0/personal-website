@@ -7,15 +7,14 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Problem Solver, Hard Working and
-			<SparklingHighlight color="secondary">Curious!</SparklingHighlight>
+			Curious, Adaptable, and
+			<SparklingHighlight color="secondary">Innovative</SparklingHighlight>
 		</h2>
 		<p>
-			I am a software engineer with a strong passion for developing innovative solutions. I thrive
-			on challenges and actively seek opportunities for learning and growth. With expertise in
-			full-stack software engineering, I also have a solid foundation in AI and LLMs. My
-			adaptability and quick learning abilities enable me to efficiently acquire and apply new
-			technologies and concepts. I am eager to connect and collaborate on impactful projects.
+			I'm Utsav, a passionate software engineer with a knack for turning ideas into reality. With a
+			strong foundation in both front-end and back-end technologies, I thrive on creating seamless,
+			scalable, and efficient solutions. My journey in tech has taught me the value of adaptability
+			and continuous learning, allowing me to stay ahead in this ever-evolving field.
 		</p>
 		<div class="socials">
 			<Socials />

@@ -15,7 +15,7 @@
 <ContentSection
 	id="experience"
 	title="Work Experience"
-	description="Building products for the real world helped me think about scale, availibility and quality of code."
+	description="Building real-world products has shaped my ability to engineer for scale, reliability, and code quality, while driving features from concept to delivery in fast-paced environments."
 >
 	<ul class="workex">
 		{#each workExperiences as workEx}
